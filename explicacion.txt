@@ -1,0 +1,3 @@
+En la rama1 se ha eliminado la función suma y todas sus llamadas y estos cambis se llevaron a la rama main.
+Y en la rama2 se incluye un nuevo parámetro y al mergear los cambios con la rama principal nos ha dado varios 
+conflictos donde teniamos anteriormente la funcipon suma y donde se realizanban sus llamadas.
