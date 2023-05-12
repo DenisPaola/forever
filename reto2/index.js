@@ -1,13 +1,11 @@
-function suma(operacion, op1, op2 = 1) {
-    if (operacion == "sum") {
-        let resultado = op1 + op2;
-        console.log("suma es igual a" + resultado)
-        return resultado;
-    }
+function suma(op1, op2, op3) {
+    let resultado = op1 + op2 + op3;
+    console.log("suma es igual a" + resultado)
+    return resultado;
 };
 
 
-function resta(operacion, op1, op2 = 1) {
+function resta(op1, op2 = 1) {
     if (operacion == "subs") {
         let resultado = op1 - op2;
         console.log("resta es igual a" + resultado)
@@ -43,19 +41,19 @@ function cuadrado(numero) {
 
 //Main===================================================================
 
-suma("sum", 12,);
+suma("sum", 12, 1,1);
 resta("subs", 20,);
 multiplicacion("mult", 20,);
 division("div", 36,);
 cuadrado(8);
 
-suma("sum", 12,);
+suma("sum", 12,2,2);
 resta("subs", -12,);
 multiplicacion("mult", 0,);
 division("div", 0,);
 cuadrado(2);
 
-suma("sum", -1,);
+suma("sum", -1,4,4);
 resta("subs", 1,);
 multiplicacion("mult", 1,);
 division("div", 1,);
